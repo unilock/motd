@@ -1,0 +1,10 @@
+@nilmod {
+	name: "motd";
+	description: "Send a configurable Message Of The Day to players joining your server!";
+	authors: "unilock";
+	version: "${version}";
+}
+
+entrypoints {
+	premain: "cc.unilock.motd.MotdPremain";
+}
